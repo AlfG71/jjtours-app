@@ -1,0 +1,5 @@
+{
+  "nav": { "tours": "Tours", "myBookings": "Mis Reservas", "language": "English" },
+  "catalog": { "title": "Nuestros tours", "empty": "Pronto publicaremos nuestros tours.", "from": "Desde", "perPerson": "por persona", "loading": "Cargando…", "error": "No pudimos cargar los tours. Intenta de nuevo." },
+  "myBookings": { "title": "Mis Reservas", "comingSoon": "Pronto podrás ver tus reservas aquí." }
+}
