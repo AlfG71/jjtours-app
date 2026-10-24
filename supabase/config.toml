@@ -1,0 +1,8 @@
+# Edge function settings. Both functions check access themselves:
+# create-checkout validates input + CORS; stripe-webhook verifies Stripe's signature.
+# (The app uses the new sb_publishable_ key, which isn't a JWT, so gateway JWT checks must be off.)
+[functions.create-checkout]
+verify_jwt = false
+
+[functions.stripe-webhook]
+verify_jwt = false
